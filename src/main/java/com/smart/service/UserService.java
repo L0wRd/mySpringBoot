@@ -14,6 +14,10 @@ public class UserService {
     @Autowired
     private UserMapper userMapper;
 
+    /**
+     * 添加一个注释
+     * @return
+     */
     public UserMapper getUserMapper() {
         return userMapper;
     }
